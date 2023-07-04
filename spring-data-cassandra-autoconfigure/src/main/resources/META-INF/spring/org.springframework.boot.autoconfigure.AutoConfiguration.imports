@@ -1,0 +1,3 @@
+nl.ing.lovebird.cassandra.spring.autoconfigure.YoltCassandra4ExceptionTranslatorAutoConfiguration
+nl.ing.lovebird.cassandra.spring.autoconfigure.YoltCassandra4VaultAutoConfiguration
+nl.ing.lovebird.cassandra.spring.autoconfigure.YoltCassandra4ModelMutationAutoConfiguration

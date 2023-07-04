@@ -1,0 +1,5 @@
+yolt:
+  commons:
+    error-handling:
+      prefix: TEST
+logging.level.nl.ing.lovebird.errorhandling: TRACE

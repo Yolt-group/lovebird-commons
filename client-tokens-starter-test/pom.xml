@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lovebird-commons</artifactId>
+        <groupId>nl.ing.lovebird</groupId>
+        <version>14.0.15-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>client-tokens-starter-test</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>client-tokens-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>client-tokens-autoconfigure-test</artifactId>
+        </dependency>
+
+        <!-- Generate meta-data -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>

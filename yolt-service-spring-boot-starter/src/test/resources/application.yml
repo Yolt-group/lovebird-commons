@@ -1,0 +1,23 @@
+content-api:
+  service-name: test-application
+
+service:
+  tokens:
+    url: http://localhost:8080/tokens
+    signature-jwks: {"keys":[]}
+
+yolt:
+  commons:
+    error-handling:
+      prefix: TEST
+
+spring:
+  sleuth:
+    baggage:
+      remote-fields: request_trace_id
+      tag-fields: request_trace_id
+  kafka:
+    bootstrap-servers: ${spring.embedded.kafka.brokers}
+    consumer:
+      group-id: "test-application"
+      auto-offset-reset: earliest

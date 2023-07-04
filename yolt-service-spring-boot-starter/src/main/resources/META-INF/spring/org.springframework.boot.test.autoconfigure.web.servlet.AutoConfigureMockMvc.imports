@@ -1,0 +1,2 @@
+com.yolt.service.starter.JsonAutoConfiguration
+com.yolt.service.starter.web.ErrorHandlingAutoConfiguration

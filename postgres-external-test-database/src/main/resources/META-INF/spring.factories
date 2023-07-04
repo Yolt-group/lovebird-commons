@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory=\
+	nl.ing.lovebird.postgres.test.ExternalPostgresTestDatabaseContextCustomizerFactory

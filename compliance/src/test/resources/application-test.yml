@@ -1,0 +1,21 @@
+yolt:
+  commons:
+    error-handling:
+      prefix: TEST
+  kafka:
+    topics:
+      gdpr-requests:
+        topic-name: gdprRequests
+        listener-concurrency: 1
+      gdpr-replies-v2:
+        topic-name: gdprRepliesV2
+        listener-concurrency: 1
+  service:
+    compliance-gdpr:
+      enabled: true
+
+spring:
+  kafka:
+    consumer:
+      group-id: "test-application"
+      auto-offset-reset: earliest

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lovebird-commons</artifactId>
+        <groupId>nl.ing.lovebird</groupId>
+        <version>14.0.15-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>yolt-service-spring-boot-starter-test</artifactId>
+
+    <!--
+        Carefully consider each library before adding it here, as every single one is added to *all* services during testing. Thus only
+        add libraries that should apply to all services; cassandra, kafka and templating should not for instance.
+        Services that need such non shared dependencies should add these themselves;
+        auto-configuration might be provided but it's only triggered if the dependencies are available on the classpath.
+    -->
+
+    <dependencies>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>spring-data-cassandra-autoconfigure-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>yolt-service-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- Provided dependencies - don't change as we don't want to autoconfiguration to create things it shouldn't do -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka-test</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Test dependencies -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Generate meta-data -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+</project>

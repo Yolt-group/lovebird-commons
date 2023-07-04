@@ -1,0 +1,2 @@
+nl.ing.lovebird.cassandra.autoconfigure.test.YoltCassandra3ModelMutationTestAutoConfiguration
+nl.ing.lovebird.cassandra.autoconfigure.test.YoltCassandra3EmbeddedAutoConfiguration

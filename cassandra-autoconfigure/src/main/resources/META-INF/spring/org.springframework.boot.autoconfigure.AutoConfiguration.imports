@@ -1,0 +1,5 @@
+nl.ing.lovebird.cassandra.autoconfigure.YoltCassandra3AutoConfiguration
+nl.ing.lovebird.cassandra.autoconfigure.YoltCassandra3CodecAutoConfiguration
+nl.ing.lovebird.cassandra.autoconfigure.YoltCassandra3HealthContributorAutoConfiguration
+nl.ing.lovebird.cassandra.autoconfigure.YoltCassandra3RepositoryAutoConfiguration
+nl.ing.lovebird.cassandra.autoconfigure.YoltCassandra3ModelMutationAutoConfiguration

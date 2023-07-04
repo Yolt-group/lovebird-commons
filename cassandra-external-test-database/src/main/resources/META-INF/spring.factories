@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory=\
+	nl.ing.lovebird.cassandra.test.CassandraExternalTestDatabaseContextCustomizerFactory

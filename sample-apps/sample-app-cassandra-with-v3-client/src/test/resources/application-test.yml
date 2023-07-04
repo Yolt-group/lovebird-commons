@@ -1,0 +1,6 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: example_app
+      username: cassandra
+      password: cassandra

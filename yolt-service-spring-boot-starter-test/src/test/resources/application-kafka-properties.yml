@@ -1,0 +1,8 @@
+yolt:
+  kafka:
+    topics:
+      full-topic-description:
+        topic-name: fullTopicDescription
+        listener-concurrency: 4
+      partial-topic-description:
+        topic-name: partialTopicDescription

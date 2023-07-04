@@ -1,0 +1,6 @@
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenConverterAutoConfiguration
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenParserAutoConfiguration
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenRequesterServiceAutoConfiguration
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenRequesterVaultAutoConfiguration
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenRestClientAutoConfiguration
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenVerificationAutoConfiguration

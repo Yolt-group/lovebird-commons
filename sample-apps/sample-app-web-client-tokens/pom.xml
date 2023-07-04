@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>nl.ing.lovebird</groupId>
+        <artifactId>sample-apps</artifactId>
+        <version>14.0.15-SNAPSHOT</version>
+    </parent>
+    <artifactId>sample-app-web-client-tokens</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>yolt-service-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>client-tokens-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>yolt-service-spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>nl.ing.lovebird</groupId>
+            <artifactId>client-tokens-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+</project>

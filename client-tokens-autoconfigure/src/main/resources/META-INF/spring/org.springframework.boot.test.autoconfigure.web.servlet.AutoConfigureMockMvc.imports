@@ -1,0 +1,2 @@
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenParserAutoConfiguration
+nl.ing.lovebird.clienttokens.autoconfigure.ClientTokenVerificationAutoConfiguration

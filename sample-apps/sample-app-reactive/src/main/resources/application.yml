@@ -1,0 +1,4 @@
+yolt:
+  commons:
+    error-handling:
+      prefix: EXAMPLE

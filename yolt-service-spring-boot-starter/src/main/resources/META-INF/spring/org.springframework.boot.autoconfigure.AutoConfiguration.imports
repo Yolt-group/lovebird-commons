@@ -1,0 +1,15 @@
+com.yolt.service.starter.web.ErrorHandlingAutoConfiguration
+com.yolt.service.starter.GDPRClientAutoConfiguration
+com.yolt.service.starter.http.HttpAutoConfiguration
+com.yolt.service.starter.JsonAutoConfiguration
+com.yolt.service.starter.MonitoringAutoConfiguration
+com.yolt.service.starter.YoltTaskExecutorShutdownAutoConfiguration
+com.yolt.service.starter.metrics.YoltThreadPoolTaskExecutorMetricsAutoConfiguration
+com.yolt.service.starter.YoltWebServerVaultAutoConfiguration
+com.yolt.service.starter.YoltVersionContributorAutoConfiguration
+com.yolt.service.starter.metrics.YoltVersionMetricsAutoConfiguration
+com.yolt.service.starter.YoltAWSAutoConfiguration
+com.yolt.service.starter.YoltAddEndPointToMdcAutoConfiguration
+com.yolt.service.starter.YoltLoggingAutoConfiguration
+com.yolt.service.starter.secrets.YoltSecretsAutoConfiguration
+com.yolt.service.starter.http.ReactiveHttpAutoConfiguration

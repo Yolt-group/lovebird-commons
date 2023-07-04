@@ -1,0 +1,3 @@
+nl.ing.lovebird.kafka.autoconfigure.KafkaHealthIndicatorAutoConfiguration
+nl.ing.lovebird.kafka.autoconfigure.YoltKafkaAutoConfiguration
+nl.ing.lovebird.kafka.autoconfigure.YoltKafkaLoggingAutoConfiguration

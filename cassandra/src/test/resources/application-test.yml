@@ -1,0 +1,8 @@
+spring:
+  data:
+    cassandra:
+      keyspaceName: my_keyspace
+
+cassandra:
+  tracing:
+    enabled: true
